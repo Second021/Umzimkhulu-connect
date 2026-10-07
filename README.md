@@ -1,4 +1,3 @@
-Here is the updated version with the unnecessary commas before **“and”** removed.
 
 # 🌍 **Umzimkhulu Connect**
 
