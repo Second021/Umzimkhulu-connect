@@ -1,623 +1,599 @@
-Umzimkhulu Connect
+Here is the updated version with the unnecessary commas before **“and”** removed.
 
-Overview
+# 🌍 **Umzimkhulu Connect**
 
-Umzimkhulu Connect is a desktop community information and reporting system developed for the Umzimkhulu community in KwaZulu-Natal, South Africa.
+## 📖 **Overview**
 
-The application is built with Python and Tkinter and uses SQLite to store users, businesses, jobs, events, community news, reports and settings.
+**Umzimkhulu Connect** is a desktop community information and reporting system developed for the **Umzimkhulu community in KwaZulu-Natal, South Africa**.
 
-The system is designed to make it easier for residents to find useful local information, report community problems and access important services from one application.
+The application is built with **Python and Tkinter** and uses **SQLite** to store users, businesses, jobs, events, community news, reports and settings.
 
-Main Features
+The system is designed to make it easier for residents to:
 
-Resident Features
+* 🏪 Find local businesses and services
+* 💼 Find jobs and opportunities
+* 📅 View community events
+* 📰 Read community news
+* 🚨 Report community problems
+* 📞 Access important services
+* ⚙️ Manage application settings
+
+---
+
+## ✨ **Main Features**
+
+### 👤 **Resident Features**
 
 Residents can:
 
-Create an account and sign in.
+* 📝 Create an account and sign in.
+* ⚙️ Manage their account settings.
+* 🔎 Search for local businesses and services.
+* 💼 View available jobs and opportunities.
+* 📋 View job requirements.
+* 📅 View community events.
+* 📰 Read community news and updates.
+* 🚨 Report community problems.
+* 📎 Attach a document or image to a report.
+* 📊 View the status of submitted reports.
+* 📂 Open report attachments.
+* 🚑 Access emergency and important service information.
+* 🌙 Change between light and dark mode.
+* 🔠 Change text size.
+* 🔔 Enable or disable selected notifications.
 
-Manage their account settings.
+---
 
-Search for local businesses and services.
-
-View available jobs and opportunities.
-
-View job requirements.
-
-View community events.
-
-Read community news and updates.
-
-Report community problems.
-
-Attach a document or image to a report.
-
-View the status of their submitted reports.
-
-Open report attachments.
-
-Access emergency and important service information.
-
-Change between light and dark mode.
-
-Change text size.
-
-Enable or disable selected notifications.
-
-Admin Features
+## 👨‍💼 **Admin Features**
 
 Administrators have access to additional management functions.
 
 The admin can:
 
-Add, edit, and delete local businesses.
+* ➕ Add local businesses.
+* ✏️ Edit local businesses.
+* 🗑️ Delete local businesses.
+* ➕ Add jobs and opportunities.
+* ✏️ Edit jobs and opportunities.
+* 🗑️ Delete jobs and opportunities.
+* ➕ Add community events.
+* ✏️ Edit community events.
+* 🗑️ Delete community events.
+* ➕ Add community news.
+* 🗑️ Delete community news.
+* 👀 View all submitted reports.
+* 🔄 Mark reports as **In Progress**.
+* ✅ Mark reports as **Resolved**.
+* 📂 Open report attachments.
 
-Add, edit, and delete jobs and opportunities.
+The **Manage Reports** section is only shown when the current user is logged in as an administrator.
 
-Add, edit, and delete community events.
+---
 
-Add and delete community news.
-
-View all submitted reports.
-
-Mark reports as In Progress.
-
-Mark reports as Resolved.
-
-Open report attachments.
-
-The Manage Reports section is only shown when the current user is logged in as an administrator.
-
-Report a Problem
+## 🚨 **Report a Problem**
 
 The reporting system allows residents to report issues affecting the community.
 
-Report Categories
+### 📋 **Report Categories**
 
 The application includes the following categories:
 
-Water & Sanitation
-
-Roads & Potholes
-
-Electricity & Lighting
-
-Waste Management
-
-Public Safety
-
-Other
+* 💧 Water & Sanitation
+* 🛣️ Roads & Potholes
+* 💡 Electricity & Lighting
+* 🗑️ Waste Management
+* 🛡️ Public Safety
+* 📌 Other
 
 A resident provides:
 
-Problem category
+* 🏷️ Problem category
+* 📝 Description
+* 📍 Location
 
-Description
+The resident can also attach:
 
-Location
+* 📄 PDF/document
+* 🖼️ Image
 
-The resident can also attach a:
-
-PDF/document
-
-Image
-
-The selected file is copied to the application's uploads folder and its path is saved with the report.
+The selected file is copied to the application's `uploads` folder and its path is saved with the report.
 
 New reports are created with the status:
 
-Pending
+**🟡 Pending**
 
 Administrators can later change the status to:
 
-In Progress
+**🔵 In Progress**
 
 or
 
-Resolved
+**🟢 Resolved**
 
-Dashboard
+---
 
-After signing in, residents and administrators can access the dashboard.
+## 🏠 **Dashboard**
+
+After signing in residents and administrators can access the dashboard.
 
 The dashboard provides quick access to:
 
-Local Businesses
-
-Jobs & Opportunities
-
-Community Events
-
-Community News
-
-Report a Problem
-
-Emergency Services
+* 🏪 Local Businesses
+* 💼 Jobs & Opportunities
+* 📅 Community Events
+* 📰 Community News
+* 🚨 Report a Problem
+* 🚑 Emergency Services
+* ⚙️ Settings
 
 The dashboard also displays report statistics and system information.
 
-Local Businesses
+---
 
-The Local Businesses section allows users to find useful businesses and services in the Umzimkhulu area.
+## 🏪 **Local Businesses**
+
+The **Local Businesses** section allows users to find useful businesses and services in the Umzimkhulu area.
 
 The project includes default business data such as:
 
-Furniture stores
+* 🛋️ Furniture stores
+* 👕 Clothing stores
+* 🛒 Supermarkets
+* 🍴 Restaurants
+* 🏦 Banks and financial services
+* 🔨 Hardware stores
+* 🚚 Transport and plant hire
+* 🏛️ Municipal services
+* 🏥 Health services
+* 📱 Mobile network services
+* 💇 Beauty services
+* 🏪 Other local businesses
 
-Clothing stores
+Administrators can:
 
-Supermarkets
+* ➕ Add businesses
+* ✏️ Update businesses
+* 🗑️ Delete businesses
 
-Restaurants
+---
 
-Banks and financial services
+## 💼 **Jobs & Opportunities**
 
-Hardware stores
-
-Transport and plant hire
-
-Municipal services
-
-Health services
-
-Mobile network services
-
-Beauty services
-
-Other local businesses
-
-Administrators can add, update, and delete business records.
-
-Jobs & Opportunities
-
-The Jobs & Opportunities section allows residents to view available opportunities.
+The **Jobs & Opportunities** section allows residents to view available opportunities.
 
 Example job categories in the project include:
 
-IT Support Assistant
-
-Administrative Assistant
-
-Retail Sales Assistant
-
-Data Capturer
-
-Community Outreach Assistant
-
-Junior Web Developer
-
-Bookkeeping Assistant
-
-Customer Service Representative
-
-General Worker
-
-Social Media Assistant
+* 💻 IT Support Assistant
+* 📑 Administrative Assistant
+* 🛍️ Retail Sales Assistant
+* 💾 Data Capturer
+* 🤝 Community Outreach Assistant
+* 🌐 Junior Web Developer
+* 📊 Bookkeeping Assistant
+* 📞 Customer Service Representative
+* 👷 General Worker
+* 📱 Social Media Assistant
 
 The system can also display requirements for the selected position.
 
-Administrators can add, update, and delete job opportunities.
+Administrators can:
 
-Community Events
+* ➕ Add job opportunities
+* ✏️ Update job opportunities
+* 🗑️ Delete job opportunities
+
+---
+
+## 📅 **Community Events**
 
 Residents can view community events stored in the system.
 
 Administrators can:
 
-Add events
+* ➕ Add events
+* ✏️ Update events
+* 🗑️ Delete events
 
-Update events
+---
 
-Delete events
+## 📰 **Community News**
 
-Community News
-
-The Community News section provides local announcements and updates.
+The **Community News** section provides local announcements and updates.
 
 Administrators can:
 
-Add news
-
-Delete news
+* ➕ Add news
+* 🗑️ Delete news
 
 Residents can read the available community news from the application.
 
-Emergency Services
+---
 
-The Emergency Services section provides important service information and contact details for residents.
+## 🚑 **Emergency Services**
+
+The **Emergency Services** section provides important service information and contact details for residents.
 
 This section is designed to provide quick access to important community and emergency-related services.
 
-Account and Settings
+---
 
-The Settings section allows users to manage application preferences.
+## ⚙️ **Account and Settings**
 
-Available settings include:
+The **Settings** section allows users to manage application preferences.
 
-Appearance
+### 🎨 **Appearance**
 
-Light Mode
+Users can choose:
 
-Dark Mode
+* ☀️ Light Mode
+* 🌙 Dark Mode
+* 🔠 Text Size
 
-Text Size
-
-Notifications
+### 🔔 **Notifications**
 
 Users can enable or disable notifications for:
 
-Reports
+* 🚨 Reports
+* 💼 Jobs
+* 📅 Events
+* 📰 News
 
-Jobs
+### 👤 **Account**
 
-Events
+Users can manage their:
 
-News
+* 👤 Display name
+* 🔑 Password
 
-Account
+---
 
-Users can also manage their:
-
-Display name
-
-Password
-
-User Roles
+## 👥 **User Roles**
 
 The application supports two main roles.
 
-Resident
+### 👤 **Resident**
 
 Residents can access normal community services such as:
 
-Businesses
+* 🏪 Businesses
+* 💼 Jobs
+* 📅 Events
+* 📰 News
+* 🚨 Reports
+* 🚑 Emergency Services
+* ⚙️ Settings
 
-Jobs
-
-Events
-
-News
-
-Reports
-
-Emergency Services
-
-Settings
-
-Admin
+### 👨‍💼 **Admin**
 
 Administrators have access to all resident features plus administration tools for managing system content and community reports.
 
-Technologies Used
+---
 
-Programming Language
+## 🛠️ **Technologies Used**
 
-Python 3.9+
+### 🐍 **Programming Language**
 
-GUI
+* Python 3.9+
 
-Tkinter
+### 🖥️ **GUI**
 
-Database
+* Tkinter
 
-SQLite
+### 🗄️ **Database**
 
-Image Processing
+* SQLite
 
-Pillow
+### 🖼️ **Image Processing**
 
-Additional Python Modules
+* Pillow
+
+### 📦 **Additional Python Modules**
 
 The project also uses standard Python libraries including:
 
-hashlib
-
-os
-
-re
-
-sqlite3
-
-shutil
-
-time
-
-math
-
-datetime
-
-tkinter
+* `hashlib`
+* `os`
+* `re`
+* `sqlite3`
+* `shutil`
+* `time`
+* `math`
+* `datetime`
+* `tkinter`
 
 Most of these modules are included with Python.
 
-Security
+---
+
+## 🔐 **Security**
 
 Resident passwords are not stored as plain text.
 
 The application uses:
 
-PBKDF2-HMAC
-
-SHA-256
-
-Random password salts
-
-Multiple hashing iterations
+* 🔐 PBKDF2-HMAC
+* 🔒 SHA-256
+* 🧂 Random password salts
+* 🔁 Multiple hashing iterations
 
 This helps protect resident passwords stored in the SQLite database.
 
-Project Structure
+---
+
+## 📁 **Project Structure**
 
 A typical project folder contains:
 
+```text
 Umzimkhulu Connect/
 │
-├── Umzimkhulu_Connect.py
-├── umzimkhulu_CoA.png.png
-├── umzimkhulu_logo.png
-├── README.md
-├── umzimkhulu_connect.db
-└── uploads/
+├── 🐍 Umzimkhulu_Connect.py
+├── 🖼️ umzimkhulu_CoA.png.png
+├── 🖼️ umzimkhulu_logo.png
+├── 📖 README.md
+├── 🗄️ umzimkhulu_connect.db
+└── 📂 uploads/
+```
 
-Main Files
+### 🐍 **Main Files**
 
-Umzimkhulu_Connect.py
+#### `Umzimkhulu_Connect.py`
 
 This is the main Python application.
 
 It contains:
 
-GUI screens
+* 🖥️ GUI screens
+* 🔐 Login and registration
+* 🗄️ Database operations
+* 🏠 Dashboard
+* 🏪 Businesses
+* 💼 Jobs
+* 📅 Events
+* 📰 News
+* 🚨 Reports
+* 👨‍💼 Admin functions
+* 🚑 Emergency services
+* ⚙️ Settings
+* 🎨 Theme management
 
-Login and registration
-
-Database operations
-
-Dashboard
-
-Businesses
-
-Jobs
-
-Events
-
-News
-
-Reports
-
-Admin functions
-
-Emergency services
-
-Settings
-
-Theme management
-
-umzimkhulu_CoA.png.png
+#### `umzimkhulu_CoA.png.png`
 
 Used by the application for the Umzimkhulu visual/login background.
 
-umzimkhulu_logo.png
+#### `umzimkhulu_logo.png`
 
 Used as the application logo.
 
-umzimkhulu_connect.db
+#### `umzimkhulu_connect.db`
 
 SQLite database created and used by the application.
 
-uploads/
+#### `uploads/`
 
 Stores files attached to community reports.
 
-Database
+---
+
+## 🗄️ **Database**
 
 The application automatically creates and uses a SQLite database named:
 
+```text
 umzimkhulu_connect.db
+```
 
 The database stores information for areas such as:
 
-Users
-
-Settings
-
-Businesses
-
-Jobs
-
-Events
-
-News
-
-Reports
+* 👥 Users
+* ⚙️ Settings
+* 🏪 Businesses
+* 💼 Jobs
+* 📅 Events
+* 📰 News
+* 🚨 Reports
 
 The database file is created automatically when the application is run.
 
-Requirements
+---
 
-Make sure Python 3.9 or newer is installed.
+## 📋 **Requirements**
+
+Make sure **Python 3.9 or newer** is installed.
 
 Install Pillow with:
 
+```bash
 pip install Pillow
+```
 
 Tkinter and SQLite are normally included with standard Python installations.
 
-Installation
+---
 
-1. Download or Clone the Project
+## 📥 **Installation**
+
+### **1️⃣ Download or Clone the Project**
 
 Download the project files or clone the repository.
 
-2. Keep the Image Files in the Project Folder
+### **2️⃣ Keep the Image Files in the Project Folder**
 
 Make sure these files are available:
 
+```text
 umzimkhulu_CoA.png.png
 umzimkhulu_logo.png
+```
 
-3. Install Pillow
+### **3️⃣ Install Pillow**
 
 Run:
 
+```bash
 pip install Pillow
+```
 
-4. Run the Application
+### **4️⃣ Run the Application**
 
 Open a terminal in the project folder and run:
 
+```bash
 python Umzimkhulu_Connect.py
+```
 
-On the first run, the application creates the SQLite database and the uploads directory automatically.
+On the first run the application creates the SQLite database and the `uploads` directory automatically.
 
-Admin Login
+---
+
+## 🔑 **Admin Login**
 
 The current source code contains demo administrator credentials:
 
+```text
 Email: Admin02@gmail.com
 Password: Admin123
+```
 
 These credentials are intended for the demonstration version of the application.
 
-Change or remove the fixed admin credentials before using the project as a real production system.
+⚠️ **Important:** Change or remove the fixed admin credentials before using the project as a real production system.
 
-Important Notes
+---
 
-This project is a desktop application.
+## 📝 **Important Notes**
 
-SQLite is used as the database.
+* 🖥️ This project is a desktop application.
+* 🗄️ SQLite is used as the database.
+* 📂 Report attachments are stored locally in the `uploads` folder.
+* 📎 The application opens attachments using the operating system's default application.
+* 🖼️ The current report system supports document and image attachments.
+* 🎙️ The current source code does **not** include voice recording.
+* 🎓 The project is intended mainly for learning demonstration and community-system development.
 
-Report attachments are stored locally in the uploads folder.
+---
 
-The application opens attachments using the operating system's default application.
-
-The current report system supports document and image attachments.
-
-The current source code does not include voice recording.
-
-The project is intended mainly for learning, demonstration, and community-system development.
-
-Application Design
+## 🎨 **Application Design**
 
 The application uses a modern green-based interface inspired by the Umzimkhulu community environment.
 
 The project includes:
 
-Sidebar navigation
+* 📌 Sidebar navigation
+* 📊 Dashboard cards
+* 📈 Report statistics
+* ☀️ Light mode
+* 🌙 Dark mode
+* 📜 Scrollable content
+* 🔎 Search functionality
+* 📝 Forms and management dialogs
+* 🏷️ Status indicators
+* 🌍 Community-focused navigation
 
-Dashboard cards
+---
 
-Report statistics
+## 🔄 **Example User Flow**
 
-Light and dark mode
-
-Scrollable content
-
-Search functionality
-
-Forms and management dialogs
-
-Status indicators
-
-Community-focused navigation
-
-Example User Flow
-
-Start Application
+```text
+🚀 Start Application
        │
        ▼
-Welcome Screen
+👋 Welcome Screen
        │
-       ├── Resident Sign In
+       ├── 👤 Resident Sign In
        │       │
        │       ▼
-       │    Dashboard
+       │    🏠 Dashboard
        │       │
-       │       ├── Local Businesses
-       │       ├── Jobs & Opportunities
-       │       ├── Community Events
-       │       ├── Community News
-       │       ├── Report a Problem
-       │       ├── Emergency Services
-       │       └── Settings
+       │       ├── 🏪 Local Businesses
+       │       ├── 💼 Jobs & Opportunities
+       │       ├── 📅 Community Events
+       │       ├── 📰 Community News
+       │       ├── 🚨 Report a Problem
+       │       ├── 🚑 Emergency Services
+       │       └── ⚙️ Settings
        │
-       └── Admin Sign In
+       └── 👨‍💼 Admin Sign In
                │
                ▼
-            Dashboard
+            🏠 Dashboard
                │
-               ├── Manage Businesses
-               ├── Manage Jobs
-               ├── Manage Events
-               ├── Manage News
-               └── Manage Reports
+               ├── 🏪 Manage Businesses
+               ├── 💼 Manage Jobs
+               ├── 📅 Manage Events
+               ├── 📰 Manage News
+               └── 🚨 Manage Reports
+```
 
-Report Status Flow
+---
 
-Resident submits report
+## 📊 **Report Status Flow**
+
+```text
+👤 Resident submits report
           │
           ▼
-       Pending
+      🟡 Pending
           │
           ▼
-     In Progress
+    🔵 In Progress
           │
           ▼
-       Resolved
+      🟢 Resolved
+```
 
-Future Improvements
+---
+
+## 🚀 **Future Improvements**
 
 Possible future improvements include:
 
-Voice recording for problem reports.
+* 🎙️ Voice recording for problem reports.
+* 🔎 More advanced search and filtering.
+* 🏛️ Online municipal integration.
+* 📧 Email or SMS notifications.
+* ⚡ Real-time service updates.
+* 🔐 Stronger administrator authentication.
+* ☁️ Cloud database support.
+* 📱 Mobile application support.
+* 👤 Improved user verification.
+* 📊 More detailed reporting and analytics.
 
-More advanced search and filtering.
+---
 
-Online municipal integration.
+## 🎯 **Project Purpose**
 
-Email or SMS notifications.
-
-Real-time service updates.
-
-Stronger administrator authentication.
-
-Cloud database support.
-
-Mobile application support.
-
-Improved user verification.
-
-More detailed reporting and analytics.
-
-Project Purpose
-
-The main purpose of Umzimkhulu Connect is to provide a central platform where community members can access local information and communicate problems that affect their area.
+The main purpose of **Umzimkhulu Connect** is to provide a central platform where community members can access local information and communicate problems that affect their area.
 
 The system demonstrates how a Python desktop application can combine:
 
-User authentication
+* 🔐 User authentication
+* 🗄️ Database management
+* 🖥️ GUI development
+* 📂 File handling
+* 🌍 Community information
+* 🚨 Reporting functionality
+* 👨‍💼 Administrative management
 
-Database management
+---
 
-GUI development
+## 👨‍💻 **Author**
 
-File handling
+**Tshangase Sinentlantla**
 
-Community information
+🎓 Final-Year BSc Information Technology Student
+🏫 North-West University (NWU)
 
-Reporting functionality
+---
 
-Administrative management
-
-Author
-
-Tshangase Sinentlantla
-
-Final-Year BSc Information Technology Student
-North-West University (NWU)
-
-License
+## 📜 **License**
 
 This project is intended for educational and demonstration purposes.
 
 Please update this section with your preferred license before publishing the project as an open-source application.
+
+---
+
+## ❤️ **Umzimkhulu Connect**
+
+**Connecting the community with information opportunities and services. 🌍🤝**
