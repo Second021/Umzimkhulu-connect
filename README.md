@@ -1,8 +1,4 @@
-# 🌍 **Umzimkhulu Connect**
 
-[![View Project](https://img.shields.io/badge/View%20Project-GitHub-black?logo=github)](https://github.com/Second021/Umzimkhulu-Connect)
-
-A desktop community information and reporting system developed for the Umzimkhulu community.
 # 🌍 **Umzimkhulu Connect**
 
 ## 📖 **Overview**
